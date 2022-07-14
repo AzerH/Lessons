@@ -1,0 +1,7 @@
+C:\Users\Qwerty\source\repos\13iyun\13iyun\bin\Debug\13iyun.exe.config
+C:\Users\Qwerty\source\repos\13iyun\13iyun\bin\Debug\13iyun.exe
+C:\Users\Qwerty\source\repos\13iyun\13iyun\bin\Debug\13iyun.pdb
+C:\Users\Qwerty\source\repos\13iyun\13iyun\obj\Debug\13iyun.csproj.AssemblyReference.cache
+C:\Users\Qwerty\source\repos\13iyun\13iyun\obj\Debug\13iyun.csproj.CoreCompileInputs.cache
+C:\Users\Qwerty\source\repos\13iyun\13iyun\obj\Debug\13iyun.exe
+C:\Users\Qwerty\source\repos\13iyun\13iyun\obj\Debug\13iyun.pdb
