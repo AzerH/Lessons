@@ -8,5 +8,31 @@ namespace _16iyul_1
 {
     class Customer
     {
+        public string name;
+        public string surname;
+        public int PassportNo;
+        public string PassportSeril;
+        public string address;
+        public int Gender;
+
+        public Customer()
+        {
+            PassportSeril = "Az";
+           
+        }
+
+        internal bool CheckCustomerFromDb()
+        {
+            return true;
+        }
+        public bool ChecjCustomer()
+        {
+            bool result = CheckCustomerFromDb();
+            return result;
+        }
+
+
     }
+
+   
 }
