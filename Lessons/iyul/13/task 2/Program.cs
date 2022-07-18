@@ -24,8 +24,10 @@ namespace _13iyun
                 Console.WriteLine("Max. endirim qiymətindən aşağı bir qiymət təyin etməyə çalışdınız! Yenidən cəhd edin");            
                 goto BeginAgain;
             }
-            else if (offerPrice > price)
+            else if (offerPrice > price) { 
                 Console.WriteLine("Qiymət uyğundur.");
+                car1.changePrice(price);
+            }
             Console.WriteLine("Çıxış üçün Enter düyməsinə sıxın") ;
             Console.ReadLine();
 
@@ -33,8 +35,8 @@ namespace _13iyun
         static void showInfo(Cars car)
         {
             Console.WriteLine($"Avtomobil haqqında məlumat:\n\tMarka: {car.marka}\n\tModel: {car.model}\n\tİstehsal ili: {car.istehsal_ili}\n\t" +
-                $"Yürüş: {car.Km}\n\tSürətlər qutusu: {car.suretQutusu}\n\tAlış qiyməti: {car.alisQiy}\n\tSatış qiyməti: {car.satisQiy}\n\tMaksimum endirim:" +
-                $" {car.maxEndirim}\n\tQiymət: {car.showPrice()}");            
+                $"Yürüş: {car.Km}\n\tSürətlər qutusu: {car.suretQutusu}\n\t");
+
         }
         static double Price(Cars car)
         {

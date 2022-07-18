@@ -52,6 +52,10 @@ namespace _13iyun
             {
             return qiymet;
             } 
+        public double changePrice(double price)
+        {
+            return qiymet = price;
+        }
 
 
 
