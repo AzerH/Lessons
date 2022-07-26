@@ -1,0 +1,7 @@
+C:\Users\Qwerty\source\repos\26iyulHw\26iyulHw\bin\Debug\26iyulHw.exe.config
+C:\Users\Qwerty\source\repos\26iyulHw\26iyulHw\bin\Debug\26iyulHw.exe
+C:\Users\Qwerty\source\repos\26iyulHw\26iyulHw\bin\Debug\26iyulHw.pdb
+C:\Users\Qwerty\source\repos\26iyulHw\26iyulHw\obj\Debug\26iyul.csproj.AssemblyReference.cache
+C:\Users\Qwerty\source\repos\26iyulHw\26iyulHw\obj\Debug\26iyul.csproj.CoreCompileInputs.cache
+C:\Users\Qwerty\source\repos\26iyulHw\26iyulHw\obj\Debug\26iyulHw.exe
+C:\Users\Qwerty\source\repos\26iyulHw\26iyulHw\obj\Debug\26iyulHw.pdb
