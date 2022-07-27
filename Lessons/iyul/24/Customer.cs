@@ -49,11 +49,16 @@ namespace _24iyul
                 {
                     _password = value;
                     Console.WriteLine("Şifrə qaydalara uyğun gəlir");
+                }                   
+
+                else 
+                {
+                    Console.WriteLine("Şifrə ən az 8 simvoldan ibarət, içərisində ən az 1 böyük hərf və 1 rəqəm olmalıdır");
+                    Console.WriteLine("Proqrama yenidən daxil olub yoxlayın");
+                    Console.ReadLine();
                 }
                     
 
-                else
-                    Console.WriteLine("Şifrə ən az 8 simvoldan ibarət, içərisində ən az 1 böyük hərf və 1 rəqəm olmalıdır");
             }
         }        
         bool  checkUsername (string username)
@@ -61,12 +66,18 @@ namespace _24iyul
             bool check = _dbArrayList.Contains(username);
            return check;
         }
+       
         #region checkPassword
         bool checkPassword(string password)
         {
             bool a = false;
             if (password.Length > 7 && checkUpper(password) && checkDigit(password))
-                a = true;           
+            {
+                a = true;
+            
+            }
+                
+            
             return a;         
         }
         bool checkUpper(string password)
@@ -77,7 +88,7 @@ namespace _24iyul
                     a = true;                
             return a;                    
         }
-        bool checkDigit(string password)
+        static bool checkDigit(string password)
         {
             bool a = false;
             foreach (char c in password)

@@ -20,7 +20,7 @@ namespace _24iyul
             customer1.Surname = "Hasanov";
             customer1.Password = "Azer7778";
             customer1.Username = "Duman";
-            customer1.Email = "azer.hasanov@gmail.com";
+            customer1.Email = "azer.hasanov@gmail.com";            
 
             Customer.CheckCustomer(customer1);
             Customer.ShowDb();

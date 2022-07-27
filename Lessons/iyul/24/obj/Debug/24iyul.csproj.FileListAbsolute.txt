@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\Lessons\Lessons\iyul\24\obj\Debug\24iyul.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Lessons\Lessons\iyul\24\obj\Debug\24iyul.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Lessons\Lessons\iyul\24\obj\Debug\26iyulHw.exe
+C:\Users\admin\Desktop\Lessons\Lessons\iyul\24\obj\Debug\26iyulHw.pdb
+C:\Users\admin\Desktop\Lessons\Lessons\iyul\24\bin\Debug\26iyulHw.exe.config
+C:\Users\admin\Desktop\Lessons\Lessons\iyul\24\bin\Debug\26iyulHw.exe
+C:\Users\admin\Desktop\Lessons\Lessons\iyul\24\bin\Debug\26iyulHw.pdb
