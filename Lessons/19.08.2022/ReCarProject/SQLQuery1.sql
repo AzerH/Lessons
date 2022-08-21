@@ -1,1 +1,0 @@
-﻿insert into Cars values (4,'Lnad cruizer' , 1,3,2011,15000)
