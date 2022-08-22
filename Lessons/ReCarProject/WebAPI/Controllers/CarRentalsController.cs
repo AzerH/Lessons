@@ -19,12 +19,32 @@ namespace WebAPI.Controllers
             _carService = carService;
         }
 
-
-        [HttpGet("getall")]
-        public List<Car> GetAll()
+        [HttpGet ("getall")]
+        public IActionResult GetAll()
         {
             var result = _carService.GetAll();
-            return result.Data;
+            return Ok(result.Data);
+
         }
+
+
+        [HttpPost("Add")]
+        public IActionResult Add(Car car)
+        {
+            var result = _carService.Add(car);
+            return Ok(result.Message);
+        }
+        [HttpGet ("getbyid")]
+        
+        public IActionResult GetById(int id)
+        {
+            var result = _carService.GetCarByid(id);
+            if (result.Success)
+                return Ok(result.Data);
+            return BadRequest(result.Message);
+
+
+        }
+
     }
 }
