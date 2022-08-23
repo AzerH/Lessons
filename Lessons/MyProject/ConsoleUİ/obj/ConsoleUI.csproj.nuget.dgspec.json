@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\ConsoleUI.csproj": {}
+    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -46,6 +46,20 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\ConsoleUI.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\ConsoleUI.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\ConsoleUİ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,14 +103,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Business\\Business.csproj"
               },
-              "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -125,21 +139,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,6 +179,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -185,21 +211,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -213,11 +239,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -252,21 +278,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -280,8 +306,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj"
+              "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj"
               }
             }
           }
@@ -310,7 +336,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

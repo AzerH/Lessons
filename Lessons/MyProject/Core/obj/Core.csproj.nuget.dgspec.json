@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {}
+    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {
+    "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Qwerty\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Qwerty\\Desktop\\Lessons\\Lessons\\MyProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Qwerty\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -60,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
